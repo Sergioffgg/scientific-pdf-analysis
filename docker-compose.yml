@@ -1,0 +1,17 @@
+version: "3.9"
+
+services:
+  grobid:
+    image: grobid/grobid:0.8.2.1-crf
+    ports:
+      - "8070:8070"
+
+  app:
+    build: .
+    depends_on:
+      - grobid
+    volumes:
+      - ./input:/app/input
+      - ./output:/app/output
+    environment:
+      - GROBID_URL=http://grobid:8070/api/processFulltextDocument
