@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+  - given-names: "Sergio"
+    family-names: "Fernandez"
+    affiliation: "Universidad Politécnica de Madrid"
+title: "Scientific PDF Figure and Link Extraction Pipeline"
+type: software
+
+license: MIT
+
+keywords:
+  - pdf
+  - grobid
+  - scientific-documents
+  - text-mining
+  - reproducible-research
+
+version: 1.0.0
+doi: 
+date-released: 2026-03-09
+url: "https://github.com/Sergioffgg/scientific-pdf-analysis"
