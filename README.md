@@ -2,6 +2,7 @@
 
 
 **1. Descripción**
+
 Este proyecto implementa un pipeline reproducible para el análisis de artículos científicos en formato PDF.
 El sistema utiliza GROBID para extraer información de documentos académicos y posteriormente 
 analiza los resultados para obtener estadísticas y gráficas.
@@ -74,3 +75,4 @@ El sistema presenta algunas limitaciones:
   con formato no estándar pueden producir resultados incompletos.
   4. A la ejecución de los scripts se le fuerza una espera minima de 20 segundos para dar tiempo a GROBID.
   5. El procesamiento de documentos grandes puede tardar varios segundos por archivo.
+
